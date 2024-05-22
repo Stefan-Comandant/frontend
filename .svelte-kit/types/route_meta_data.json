@@ -1,0 +1,57 @@
+{
+	"/": [
+		"src/routes/+page.server.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/authorize": [
+		"src/routes/authorize/+page.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/authorize/[id]": [
+		"src/routes/+layout.server.ts"
+	],
+	"/chats": [
+		"src/routes/chats/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/chats/direct": [
+		"src/routes/chats/direct/+page.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/chats/direct/[id]": [
+		"src/routes/chats/direct/[id]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/chats/group": [
+		"src/routes/chats/group/+page.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/chats/group/[id]": [
+		"src/routes/chats/group/[id]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/chats/new": [
+		"src/routes/+layout.server.ts"
+	],
+	"/login": [
+		"src/routes/+layout.server.ts"
+	],
+	"/logout": [
+		"src/routes/+layout.server.ts"
+	],
+	"/profiles": [
+		"src/routes/profiles/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/profiles/[id]": [
+		"src/routes/profiles/[id]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/register": [
+		"src/routes/+layout.server.ts"
+	],
+	"/settings": [
+		"src/routes/+layout.server.ts"
+	]
+}
