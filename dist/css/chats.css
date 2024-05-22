@@ -1,0 +1,52 @@
+.popup {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.popup div {
+	display: flex;
+	flex-direction: column;
+}
+
+.room-container a {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.room {
+	border-radius: 10px;
+	border: #000 solid 1px;
+	width: fit-content;
+	min-width: 425px;
+	padding: 15px 21px;
+	text-decoration: none;
+	color: inherit;
+}
+
+.room.dark {
+	border: 2px solid #fff;
+}
+
+.room.dark > div {
+	color: #fff;
+}
+
+.room span {
+	color: #b0b0b0;
+	font-size: 12px;
+}
+
+.convo-switch {
+	background: #000000;
+	border: 1px solid rgba(0, 0, 0, 0);
+	cursor: pointer;
+	color: #fff;
+	border-radius: 20px;
+}
+.convo-switch.active {
+	background: #fff;
+	color: #121212;
+	border: 2px solid #121212;
+}

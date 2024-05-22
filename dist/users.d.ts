@@ -1,0 +1,10 @@
+import { type MessageDate, type User } from './interfaces.ts';
+export declare function GetProfileByID(id?: string): Promise<User>;
+export declare function GetProfiles(): Promise<User[]>;
+export declare function GetUsers(): Promise<User[]>;
+export declare function GetUserData(): Promise<User>;
+export declare function GetRoomMembers(id: string): Promise<User[]>;
+export declare function formatDate(dateStr: string): MessageDate;
+export declare function GetUsername(from?: string, members?: User[]): string;
+export declare function getProfilePicture(id?: string, members?: User[]): string;
+export declare function getPeer(users?: User[], members?: string[], USER?: User): User;

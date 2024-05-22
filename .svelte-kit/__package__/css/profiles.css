@@ -1,0 +1,40 @@
+.account {
+	display: flex;
+	text-decoration: none;
+	color: inherit;
+	width: fit-content;
+	padding: 10px 15px;
+	gap: 10px;
+	border-radius: 25px;
+}
+
+h1.dark {
+	color: #fff;
+}
+
+.account > div > span {
+	color: #a0a0a0;
+}
+.account > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.account.dark > div > div {
+	color: #fff;
+}
+
+.account:hover {
+	border: 1px solid #000;
+}
+
+.account.dark:hover {
+	border: 2px solid #fff;
+}
+
+.account > img {
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+}
